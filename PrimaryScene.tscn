@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Subscene/TestTarget_II_.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Subscene/Wall.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Subscene/Player_TestA.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Subscene/Player_Test_C.gd" type="Script" id=4]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Target 1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 518, 164 )
+
+[node name="Wall" parent="Target 1" instance=ExtResource( 2 )]
+position = Vector2( -136, -11 )
+
+[node name="Wall2" parent="Target 1" instance=ExtResource( 2 )]
+position = Vector2( -137, 316 )
+
+[node name="Target 2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 646, 488 )
+
+[node name="Man 1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 202.626, 301.626 )
+script = ExtResource( 4 )
+
