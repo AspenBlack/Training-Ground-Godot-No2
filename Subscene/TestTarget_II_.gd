@@ -25,14 +25,14 @@ func _physics_process(delta):
 
 func Hit(Info = null):
 	if (typeof(Info) == TYPE_VECTOR2):  #can test any thing but then need to test what type of object
-		print ("Bump")
+	#	print ("Bump")
 		Info = Info.normalized()
-		print (Info)
-		print (Info.tangent())
+	#	print (Info)
+	#	print (Info.tangent())
 		var NewVector = Info.tangent() * rand_range(-1,1)
-		print ("Vector 1 %s" % (NewVector))
+	#	print ("Vector 1 %s" % (NewVector))
 		NewVector = NewVector + Info
-		print ("Vector 2 %s" % (NewVector))
+	#	print ("Vector 2 %s" % (NewVector))
 		themove = NewVector * 10
 		return null
 	

@@ -18,6 +18,7 @@ func _ready():
 	# Called when the node is added to the scene for the first time.
 	# Initialization here
 	add_to_group("FreeFire")
+	set_as_toplevel(true) #this is so it does not move with its Parent. 
 	pass
 
 #func _process(delta):
