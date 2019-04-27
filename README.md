@@ -11,3 +11,16 @@ projectiles
 
 The created projectiles are now minimly positioned out side the bots collision 2D.
 The reason for this is to prevent the bot from firing through a wall.  Which was happening when origianly the walls were added.
+<<<<<<< HEAD
+=======
+
+
+
+Have added dependance on 
+
+Code Project link:
+http://www.codeproject.com/Articles/1016734/Parallel-Artificial-Neural-Networks-in-NET-Frame
+
+GitHub link:
+https://github.com/hemanthk119/NeuralNetworks/
+>>>>>>> 5a3f22f68847d0e7c7c0d03c36ead182def0dd35
