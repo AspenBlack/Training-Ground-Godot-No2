@@ -7,7 +7,7 @@ var Bullet_Script = load("res://Subscene/Bullet_I_.gd")
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	Parent = get_parent()
-	print (Parent)
+	#print (Parent)
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

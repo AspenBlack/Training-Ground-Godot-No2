@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpInG Training Ground No1", "ExpInG Training Ground No1.csproj", "{49AC0B05-A740-4FD6-BE49-EB6F5C94106A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	Tools|Any CPU = Tools|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49AC0B05-A740-4FD6-BE49-EB6F5C94106A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AC0B05-A740-4FD6-BE49-EB6F5C94106A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AC0B05-A740-4FD6-BE49-EB6F5C94106A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AC0B05-A740-4FD6-BE49-EB6F5C94106A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49AC0B05-A740-4FD6-BE49-EB6F5C94106A}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
+		{49AC0B05-A740-4FD6-BE49-EB6F5C94106A}.Tools|Any CPU.Build.0 = Tools|Any CPU
+	EndGlobalSection
+EndGlobal
