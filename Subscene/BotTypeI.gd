@@ -8,6 +8,8 @@ var CurrentTarget = Vector2(1000,0)
 var ShootMethod = null
 var ThinkMethod = null
 var MoveMethod = null
+var SaveDataMethod = null
+var SaveNetworkMethod = null
 
 
 # Called when the node enters the scene tree for the first time.
@@ -23,7 +25,13 @@ func _ready():
 			print ("ThinkMethod %s" % (child.name))
 		if child.has_method("move"):
 			MoveMethod = child
-			print ("MomeMethod %s" % (child.name))
+			print ("MoveMethod %s" % (child.name))
+		if child.has_method("savedata"):
+			SaveDataMethod = child
+			print ("SaveDataMethod %s" % (child.name))
+		if child.has_method("savenetwork"):
+			SaveNetworkMethod = child
+			print ("SaveNetworkMethod %s" % (child.name))
 		
 
 func _physics_process(delta):
@@ -57,3 +65,9 @@ func think(  ):
 	# Defult shoot is none
 	pass
 	
+
+func _on_SaveData_pressed():
+	print("Button Pressed")
+	if SaveDataMethod != null :
+		SaveDataMethod.savedata()
+

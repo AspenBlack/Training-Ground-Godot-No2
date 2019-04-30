@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Subscene/TestTarget_II_.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Subscene/Player_TestA.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Subscene/Player_Test_C.gd" type="Script" id=3]
+[ext_resource path="res://Subscene/Wall.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Subscene/Player_TestB.tscn" type="PackedScene" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Target 1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 519.053, 158.737 )
+
+[node name="Target 3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 795.895, 122.947 )
+
+[node name="Target 2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 646, 488 )
+
+[node name="Man 1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 468.257, 426.1 )
+script = ExtResource( 3 )
+
+[node name="Man 3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 647.204, 251.363 )
+script = ExtResource( 3 )
+
+[node name="Wall" parent="." instance=ExtResource( 4 )]
+position = Vector2( 382, 153 )
+
+[node name="Wall3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1004.11, 71.9474 )
+
+[node name="Wall2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 381, 480 )
+
+[node name="Man 2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 301.053, 345.263 )
+Side = "BlueBots"
+

@@ -21,14 +21,15 @@ public class SmallBrain_II : Node
 
     Godot.Collections.Dictionary<int, Node2D> MyDic;
     Godot.Collections.Dictionary MyDic2;
-
+    
 
     BackPropogationNetwork MoveShootNet = new BackPropogationNetwork(18, 4, 18);
     double[] data_in = new double[18];
     double[] data_out = new double[4];
 
     System.Collections.Generic.IEnumerable <double> data_out2 = new double[4];
-
+    System.Collections.Generic.List <NeuralNetworks.DataSet> TrainingData = new System.Collections.Generic.List <NeuralNetworks.DataSet>();
+    NeuralNetworks.DataSet Training ;//= new  NeuralNetworks.DataSet();
 
 
     // Called when the node enters the scene tree for the first time.
@@ -80,22 +81,36 @@ public class SmallBrain_II : Node
         }
 
         GD.Print(MyString);
-
-
+        normalize(data_in);
         MoveShootNet.ApplyInput(data_in);
         MoveShootNet.CalculateOutput();
         data_out2 = MoveShootNet.ReadOutput();
+        data_out2 = denormalize(data_out2);
+
 
         MyString ="";
         foreach(double Anumber in data_out2)
         {
+            
             MyString += Anumber.ToString() +",";
         }
 
+        data_out = new double[] {data_in[0],data_in[1] , data_in[0],data_in[1]};
+        //normalize(data_out);
+        
+        Training = new NeuralNetworks.DataSet {Outputs = data_out, Inputs = data_in };
+        //Training = new NeuralNetworks.DataSet() {(double[]) data_out2, Inputs = data_in };
+        TrainingData.Add(Training);
         GD.Print(MyString);
+        
 
     }
 
+
+    public void savedata()
+    {
+        GD.Print("Made it to the C# script");
+    }
 
     public Godot.Collections.Dictionary<int, Node2D> sort_distance(Godot.Collections.Array<Node2D> SomeNodes)
     {
@@ -157,5 +172,31 @@ public class SmallBrain_II : Node
         }
         return SomeOtherNodes;
     }
+
+
+
+    public void normalize(double[] AnArray)
+    {
+        int i = 0;
+        foreach (double Anumber in AnArray)
+        {
+            AnArray[i] = Anumber/1000;
+            i++;
+        }
+    }
+
+   public System.Collections.Generic.IEnumerable <double> denormalize(System.Collections.Generic.IEnumerable <double> AnArray)
+    {
+        System.Collections.Generic.List <double> TheArray = new System.Collections.Generic.List <double>();
+
+        foreach (double Anumber in AnArray)
+        {
+            TheArray.Add(Anumber*1000);
+        }
+            
+        return TheArray;
+    }
+
+
 
 }

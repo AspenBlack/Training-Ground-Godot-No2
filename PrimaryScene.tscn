@@ -1,40 +1,80 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Subscene/TestTarget_II_.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Subscene/Player_TestA.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Subscene/Player_Test_C.gd" type="Script" id=3]
-[ext_resource path="res://Subscene/Wall.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Subscene/Player_TestB.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Art/Save_128_V1.png" type="Texture" id=1]
+[ext_resource path="res://Art/Save_128_V2.png" type="Texture" id=2]
+[ext_resource path="res://Subscene/Wall.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Subscene/Player_TestA.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Subscene/Player_Test_C.gd" type="Script" id=5]
+[ext_resource path="res://Subscene/Player_TestB.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Subscene/TestTarget_II_.tscn" type="PackedScene" id=7]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node" type="Node"]
 
-[node name="Target 1" parent="." instance=ExtResource( 1 )]
-position = Vector2( 519.053, 158.737 )
+[node name="GUI" type="MarginContainer" parent="."]
+anchor_right = 1.0
+margin_right = -97.0
+margin_bottom = 104.0
+custom_constants/margin_right = 20
+custom_constants/margin_top = 20
+custom_constants/margin_left = 20
+custom_constants/margin_bottom = 20
 
-[node name="Target 3" parent="." instance=ExtResource( 1 )]
-position = Vector2( 795.895, 122.947 )
+[node name="HBoxContainer" type="HBoxContainer" parent="GUI"]
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 907.0
+margin_bottom = 84.0
 
-[node name="Target 2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 646, 488 )
+[node name="SaveData" type="TextureButton" parent="GUI/HBoxContainer"]
+margin_right = 64.0
+margin_bottom = 64.0
+rect_min_size = Vector2( 64, 64 )
+hint_tooltip = "Save the Learning Data"
+size_flags_horizontal = 8
+size_flags_vertical = 8
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+expand = true
 
-[node name="Man 1" parent="." instance=ExtResource( 2 )]
-position = Vector2( 468.257, 426.1 )
-script = ExtResource( 3 )
+[node name="SaveNetwork" type="TextureButton" parent="GUI/HBoxContainer"]
+margin_left = 68.0
+margin_right = 132.0
+margin_bottom = 64.0
+rect_min_size = Vector2( 64, 64 )
+hint_tooltip = "Save the Network Data"
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+expand = true
 
-[node name="Man 3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 647.204, 251.363 )
-script = ExtResource( 3 )
+[node name="Wall1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 344.175, 100.668 )
 
-[node name="Wall" parent="." instance=ExtResource( 4 )]
-position = Vector2( 382, 153 )
+[node name="Wall2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 337.99, 497.504 )
 
-[node name="Wall3" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1004.11, 71.9474 )
+[node name="Wall3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 975.388, 306.084 )
 
-[node name="Wall2" parent="." instance=ExtResource( 4 )]
-position = Vector2( 381, 480 )
+[node name="Man1" parent="." instance=ExtResource( 4 )]
+position = Vector2( 388.324, 169.654 )
+script = ExtResource( 5 )
 
-[node name="Man 2" parent="." instance=ExtResource( 5 )]
-position = Vector2( 301.053, 345.263 )
-Side = "BlueBots"
+[node name="Man2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 391.045, 430.845 )
+script = ExtResource( 5 )
 
+[node name="MAN3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 80.8797, 293.448 )
+
+[node name="Target1" parent="." instance=ExtResource( 7 )]
+position = Vector2( 516.199, 54.0218 )
+
+[node name="Target2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 498.515, 511.107 )
+
+[node name="Target3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 937.915, 60.8236 )
+
+[connection signal="pressed" from="GUI/HBoxContainer/SaveData" to="MAN3" method="_on_SaveData_pressed"]
