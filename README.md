@@ -14,10 +14,15 @@ The reason for this is to prevent the bot from firing through a wall.  Which was
 
 
 
-Have added dependance on 
+Added a C# script
+Which in turn haves dependance on an Neural Network Package.
+
+
+Depencance Package(s)
 
 Code Project link:
 http://www.codeproject.com/Articles/1016734/Parallel-Artificial-Neural-Networks-in-NET-Frame
 
 GitHub link:
 https://github.com/hemanthk119/NeuralNetworks/
+
