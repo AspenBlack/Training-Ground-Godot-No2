@@ -78,3 +78,4 @@ position = Vector2( 498.515, 511.107 )
 position = Vector2( 937.915, 60.8236 )
 
 [connection signal="pressed" from="GUI/HBoxContainer/SaveData" to="MAN3" method="_on_SaveData_pressed"]
+[connection signal="pressed" from="GUI/HBoxContainer/SaveNetwork" to="MAN3" method="_on_SaveNetwork_pressed"]

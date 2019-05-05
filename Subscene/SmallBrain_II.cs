@@ -1,6 +1,8 @@
 using Godot;
 using System;
 using NeuralNetworks;
+using System.Xml;
+
 
 
 public class SmallBrain_II : Node
@@ -110,6 +112,17 @@ public class SmallBrain_II : Node
     public void savedata()
     {
         GD.Print("Made it to the C# script");
+        NeuralNetwork.WriteDataSetToFile(TrainingData,"SomeData.xml");
+
+    }
+
+    public void savenetwork()
+    {
+        GD.Print("Made it to the C# save Network script");
+        NeuralNetworks.NetworkData MyNet = MoveShootNet.GetNetworkData();
+        NeuralNetwork.SaveNetworkToFile(MyNet,"SomeNetwork.xml");  //not compatable with Mono 5.12 is compatable with 5.
+         
+       
     }
 
     public Godot.Collections.Dictionary<int, Node2D> sort_distance(Godot.Collections.Array<Node2D> SomeNodes)

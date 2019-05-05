@@ -71,3 +71,8 @@ func _on_SaveData_pressed():
 	if SaveDataMethod != null :
 		SaveDataMethod.savedata()
 
+
+func _on_SaveNetwork_pressed():
+	print("Other Button Pressed")
+	if SaveNetworkMethod != null :
+		SaveNetworkMethod.savenetwork()
