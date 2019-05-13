@@ -2,7 +2,8 @@ using Godot;
 using System;
 using NeuralNetworks;
 using System.Xml;
-
+using System.Xml.Serialization;
+using System.Collections.Generic;
 
 
 public class SmallBrain_II : Node
@@ -120,9 +121,33 @@ public class SmallBrain_II : Node
     {
         GD.Print("Made it to the C# save Network script");
         NeuralNetworks.NetworkData MyNet = MoveShootNet.GetNetworkData();
-        NeuralNetwork.SaveNetworkToFile(MyNet,"SomeNetwork.xml");  //not compatable with Mono 5.12 is compatable with 5.
-         
-       
+        //NeuralNetwork.SaveNetworkToFile(MyNet,"SomeNetwork.xml");  //not compatable with Mono 5.18 is compatable with 5.4
+        //System.Xml.Serialization.XmlSerializer Aserialiser = new  System.Xml.Serialization.XmlSerializer() ;
+        System.Xml.Serialization.XmlSerializer Aserialiser = new XmlSerializer(typeof(List<NeuralNetworks.LayerData>));
+        System.Xml.Serialization.XmlSerializer Bserialiser = new XmlSerializer(typeof(List<NeuralNetworks.ConnectionData>));
+        try
+        {
+            System.IO.TextWriter writer = new System.IO.StreamWriter("TheNeworkFileA.xml"); 
+            Aserialiser.Serialize(writer, MyNet.Layers);
+            writer.Close();
+        }
+        catch
+        {
+            GD.Print("But Failed to Save DataA");
+        }
+
+        try
+        {
+            System.IO.TextWriter writer = new System.IO.StreamWriter("TheNeworkFileB.xml"); 
+            Bserialiser.Serialize(writer, MyNet.Connections);
+            writer.Close();
+        }
+        catch
+        {
+            GD.Print("But Failed to Save DataB");
+        }
+
+
     }
 
     public Godot.Collections.Dictionary<int, Node2D> sort_distance(Godot.Collections.Array<Node2D> SomeNodes)
@@ -141,6 +166,7 @@ public class SmallBrain_II : Node
         //     //NodesDistance.Add(Parent.Position.DistanceTo(Anode.Position));
         //     //NodesDistance.Add(Anode);
         // //}
+
         return MyDic;
     }
 
