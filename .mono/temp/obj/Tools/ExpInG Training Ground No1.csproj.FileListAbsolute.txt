@@ -1,7 +1,6 @@
 E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Tools\ExpInG Training Ground No1.dll
 E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Tools\ExpInG Training Ground No1.pdb
 E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Tools\GodotSharpEditor.dll
-E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Tools\NeuralClasses.dll
 E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Tools\GodotSharpEditor.pdb
 E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Tools\GodotSharpEditor.xml
 E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\obj\Tools\ExpInG Training Ground No1.csprojAssemblyReference.cache

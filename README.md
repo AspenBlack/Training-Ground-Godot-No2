@@ -17,6 +17,9 @@ The reason for this is to prevent the bot from firing through a wall.  Which was
 Added a C# script
 Which in turn haves dependance on an Neural Network Package.
 
+Have write workaround for problems in Mono and passing some of the objects to functions 
+
+
 
 Depencance Package(s)
 

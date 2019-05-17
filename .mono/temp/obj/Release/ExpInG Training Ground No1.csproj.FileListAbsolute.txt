@@ -1,0 +1,9 @@
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Release\ExpInG Training Ground No1.dll
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Release\ExpInG Training Ground No1.pdb
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Release\GodotSharpEditor.dll
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Release\GodotSharpEditor.pdb
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\bin\Release\GodotSharpEditor.xml
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\obj\Release\ExpInG Training Ground No1.csproj.CoreCompileInputs.cache
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\obj\Release\ExpInG Training Ground No1.csproj.CopyComplete
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\obj\Release\ExpInG Training Ground No1.dll
+E:\House\Documents\Godot\Training-Ground-Godot-No2\.mono\temp\obj\Release\ExpInG Training Ground No1.pdb

@@ -10,6 +10,8 @@ var ThinkMethod = null
 var MoveMethod = null
 var SaveDataMethod = null
 var SaveNetworkMethod = null
+var LoadNetworkMethod = null
+var TrainNetworkMethod = null
 
 
 # Called when the node enters the scene tree for the first time.
@@ -32,6 +34,12 @@ func _ready():
 		if child.has_method("savenetwork"):
 			SaveNetworkMethod = child
 			print ("SaveNetworkMethod %s" % (child.name))
+		if child.has_method("loadnetwork"):
+			LoadNetworkMethod = child
+			print ("LoadNetworkMethod %s" % (child.name))
+		if child.has_method("trainnetwork"):
+			TrainNetworkMethod = child
+			print ("TrainNetworkMethod %s" % (child.name))
 		
 
 func _physics_process(delta):
@@ -67,12 +75,24 @@ func think(  ):
 	
 
 func _on_SaveData_pressed():
-	print("Button Pressed")
+	print("Save Data Button Pressed")
 	if SaveDataMethod != null :
 		SaveDataMethod.savedata()
 
 
 func _on_SaveNetwork_pressed():
-	print("Other Button Pressed")
+	print("Save Net Button Pressed")
 	if SaveNetworkMethod != null :
 		SaveNetworkMethod.savenetwork()
+
+
+func _on_LoadNetwork_pressed():
+	print("Load Button Pressed")
+	if LoadNetworkMethod != null :
+		LoadNetworkMethod.loadnetwork()
+
+
+func _on_TrainNetwork_pressed():
+	print("Train Button Pressed")
+	if TrainNetworkMethod != null :
+		TrainNetworkMethod.trainnetwork()

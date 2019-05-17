@@ -4,7 +4,7 @@
     <ActType>RAMP</ActType>
     <NumNeuron>18</NumNeuron>
     <Bias>
-      <double>0</double>
+      <double>0.5</double>
       <double>0</double>
       <double>0</double>
       <double>0</double>

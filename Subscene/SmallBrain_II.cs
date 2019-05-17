@@ -4,6 +4,8 @@ using NeuralNetworks;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Collections.Generic;
+using System.Linq;
+
 
 
 public class SmallBrain_II : Node
@@ -117,18 +119,21 @@ public class SmallBrain_II : Node
 
     }
 
+    //Ok save net works working now.  something wrong with the call not hitting so this work around.
     public void savenetwork()
     {
         GD.Print("Made it to the C# save Network script");
         NeuralNetworks.NetworkData MyNet = MoveShootNet.GetNetworkData();
+        
         //NeuralNetwork.SaveNetworkToFile(MyNet,"SomeNetwork.xml");  //not compatable with Mono 5.18 is compatable with 5.4
-        //System.Xml.Serialization.XmlSerializer Aserialiser = new  System.Xml.Serialization.XmlSerializer() ;
-        System.Xml.Serialization.XmlSerializer Aserialiser = new XmlSerializer(typeof(List<NeuralNetworks.LayerData>));
-        System.Xml.Serialization.XmlSerializer Bserialiser = new XmlSerializer(typeof(List<NeuralNetworks.ConnectionData>));
+        System.Xml.Serialization.XmlSerializer Aserialiser = new  System.Xml.Serialization.XmlSerializer(typeof(NeuralNetworks.NetworkData)) ;
+        //System.Xml.Serialization.XmlSerializer Aserialiser = new XmlSerializer(typeof(List<NeuralNetworks.LayerData>));
+        //System.Xml.Serialization.XmlSerializer Bserialiser = new XmlSerializer(typeof(List<NeuralNetworks.ConnectionData>));
         try
         {
-            System.IO.TextWriter writer = new System.IO.StreamWriter("TheNeworkFileA.xml"); 
-            Aserialiser.Serialize(writer, MyNet.Layers);
+            //System.IO.TextWriter writer = new System.IO.StreamWriter("TheNeworkFileA.xml"); 
+            System.IO.TextWriter writer = new System.IO.StreamWriter("SomeNetwork.xml"); 
+            Aserialiser.Serialize(writer, MyNet);
             writer.Close();
         }
         catch
@@ -136,18 +141,73 @@ public class SmallBrain_II : Node
             GD.Print("But Failed to Save DataA");
         }
 
-        try
-        {
-            System.IO.TextWriter writer = new System.IO.StreamWriter("TheNeworkFileB.xml"); 
-            Bserialiser.Serialize(writer, MyNet.Connections);
-            writer.Close();
-        }
-        catch
-        {
-            GD.Print("But Failed to Save DataB");
-        }
+        // try
+        // {
+        //     System.IO.TextWriter writer = new System.IO.StreamWriter("TheNeworkFileB.xml"); 
+        //     Bserialiser.Serialize(writer, MyNet.Connections);
+        //     writer.Close();
+        // }
+        // catch
+        // {
+        //     GD.Print("But Failed to Save DataB");
+        // }
 
 
+    }
+
+    //Ok Load net works working now.  
+    //But can not write to NumLayers because it is read only but cout rectreat Using simple constructer.
+    public void loadnetwork()
+    {
+        int Anum ;
+        NeuralNetworks.NetworkData MyNet = MoveShootNet.GetNetworkData();
+        //NeuralNetworks.NetworkData MyNet2 = NeuralNetwork.ReadNetworkFromFile("SomeNetwork.xml"); // Not working some this about handing over to this funciton
+
+        // NeuralNetworks.NetworkData MyNet2 = MoveShootNet.GetNetworkData();
+        // System.Collections.Generic.IEnumerable <double> SomeBiases = new double[18];
+
+
+        //This works which is lucky
+        if (System.IO.File.Exists("SomeNetwork.xml"))
+        {
+            try
+            {
+                System.Xml.Serialization.XmlSerializer Aserialiser = new XmlSerializer(typeof(NeuralNetworks.NetworkData));
+                System.IO.FileStream Astream = new System.IO.FileStream("SomeNetwork.xml",System.IO.FileMode.Open);
+                MyNet = (NeuralNetworks.NetworkData)Aserialiser.Deserialize(Astream);
+                Astream.Close();
+            }
+            catch
+            {
+                GD.Print("But Failed to Load File");
+            }
+        }
+        else GD.Print("But Failed to Find File");
+
+        // //MoveShootNet = new BackPropogationNetwork(MyNet2);
+        //MoveShootNet.Layers[0].SetValues(MyNet.Layers[0].Bias);
+
+        MoveShootNet.Layers = new NeuralNetworks.Layer[MyNet.Layers.Count];
+        foreach (NeuralNetworks.LayerData ld in MyNet.Layers)
+        {
+            MoveShootNet.Layers[MyNet.Layers.IndexOf(ld)] = new NeuralNetworks.Layer(MyNet.Layers.IndexOf(ld), ld.NumNeuron, ld.ActType, ld.Bias);
+        }
+
+        foreach (ConnectionData cd in MyNet.Connections)
+            {
+                MoveShootNet.Layers[cd.From.Layer].Neurons[cd.From.Node].AddConnection(MoveShootNet.Layers[cd.To.Layer].Neurons[cd.To.Node], true, cd.Weight);
+            }
+
+        MoveShootNet.InputIndex = MyNet.InputLayerId;
+        MoveShootNet.OutputIndex = MyNet.OutputLayerId;
+
+        // SomeBiases = MyNet.Layers[0].Bias;
+        // Anum = MyNet.Layers[0].Bias.Count;
+        // Anum = SomeBiases.Count();
+        // GD.Print("Anum is ",(Anum));
+        // GD.Print("Bias is ",(SomeBiases));
+
+        //MoveShootNet = new NeuralNetworks.BackPropogationNetwork(MyNet); // Not working heap miss alinment ?
     }
 
     public Godot.Collections.Dictionary<int, Node2D> sort_distance(Godot.Collections.Array<Node2D> SomeNodes)
