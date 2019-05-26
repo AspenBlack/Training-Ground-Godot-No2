@@ -6,7 +6,7 @@ export var MoveSpeed = 10
 func _ready():
 	Parent = get_parent()
 	
-func move(Apoint : Vector2):
+func move(Apoint : Vector2):  #Relitive to Parrent
 	#var Amove = Vector2(10,0)
 	Apoint = Apoint.clamped(MoveSpeed)
 	var Collision = Parent.move_and_collide(Apoint)

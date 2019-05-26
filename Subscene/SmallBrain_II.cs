@@ -1,3 +1,13 @@
+/* 
+First Attempt at implement Neural Network
+by Craig Wroth
+ */
+
+
+//#define DebugA
+//#define DebugB
+
+
 using Godot;
 using System;
 using NeuralNetworks;
@@ -5,6 +15,8 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Collections.Generic;
 using System.Linq;
+
+
 
 
 
@@ -31,6 +43,8 @@ public class SmallBrain_II : Node
     BackPropogationNetwork MoveShootNet = new BackPropogationNetwork(18, 4, 18);
     double[] data_in = new double[18];
     double[] data_out = new double[4];
+    float[] data_out3 = new float[4];
+    int Acount = 0;
 
     System.Collections.Generic.IEnumerable <double> data_out2 = new double[4];
     System.Collections.Generic.List <NeuralNetworks.DataSet> TrainingData = new System.Collections.Generic.List <NeuralNetworks.DataSet>();
@@ -48,16 +62,23 @@ public class SmallBrain_II : Node
     public void think()
     {
         ClosestFriend = get_friends_informaion();
-        GD.Print(ClosestFriend);
+       
         ClosestFoe = get_foe_informaion();
-        GD.Print(ClosestFoe);
+
         Enviroment = get_evironment_information();
-        GD.Print(Enviroment);
+
         ClosestFriend2 = sort_distance(ClosestFriend);
+
+        #if DebugA
+        GD.Print("Network input Objects");
+        GD.Print(ClosestFriend);
+        GD.Print(ClosestFoe);
+        GD.Print(Enviroment);
         GD.Print(ClosestFriend2);
         GD.Print(ClosestFoe[0].Position);
         GD.Print(ClosestFoe[0].Position.x); 
         GD.Print(ClosestFoe[0].Position.y);
+        #endif
 
 
         data_in[0] = ClosestFoe[0].Position.x;
@@ -79,13 +100,16 @@ public class SmallBrain_II : Node
         data_in[16] = Enviroment[2].Position.x;
         data_in[17] = Enviroment[2].Position.y;
 
+        #if (DebugA)
         MyString ="";
         foreach(double Anumber in data_in)
         {
             MyString += Anumber.ToString() +",";
         }
-
+        GD.Print("Objects Position Data");
         GD.Print(MyString);
+        #endif
+
         normalize(data_in);
         MoveShootNet.ApplyInput(data_in);
         MoveShootNet.CalculateOutput();
@@ -93,12 +117,7 @@ public class SmallBrain_II : Node
         data_out2 = denormalize(data_out2);
 
 
-        MyString ="";
-        foreach(double Anumber in data_out2)
-        {
-            
-            MyString += Anumber.ToString() +",";
-        }
+        
 
         data_out = new double[] {data_in[0],data_in[1] , data_in[0],data_in[1]};
         //normalize(data_out);
@@ -106,15 +125,42 @@ public class SmallBrain_II : Node
         Training = new NeuralNetworks.DataSet {Outputs = data_out, Inputs = data_in };
         //Training = new NeuralNetworks.DataSet() {(double[]) data_out2, Inputs = data_in };
         TrainingData.Add(Training);
+
+        #if DebugA
+        MyString ="";
+        foreach(double Anumber in data_out2)
+        {
+            MyString += Anumber.ToString() +",";
+        }
+        GD.Print("Output of Network");
         GD.Print(MyString);
-        
+        #endif
+
+        //data_out = (double[]) data_out2;
+        GD.Print("Has Current Move ",Parent.Get("CurrentMove"));
+        GD.Print("Has Side ",Parent.Get("Side"));
+
+        Acount = 0 ;
+        foreach(double Anumber in data_out2)
+        {
+
+            data_out3[Acount] = (float)Anumber;
+            Acount++;
+        }
+
+
+
+        Parent.Set("CurrentMove",Parent.ToLocal(new Godot.Vector2(data_out3[2] ,data_out3[3] )));
+        Parent.Set("CurrentTarget",new Godot.Vector2(data_out3[0] ,data_out3[1 ] ));
 
     }
 
 
     public void savedata()
     {
+        #if DebugA
         GD.Print("Made it to the C# script");
+        #endif
         NeuralNetwork.WriteDataSetToFile(TrainingData,"SomeData.xml");
 
     }
@@ -122,7 +168,9 @@ public class SmallBrain_II : Node
     //Ok save net works working now.  something wrong with the call not hitting so this work around.
     public void savenetwork()
     {
+        #if DebugA
         GD.Print("Made it to the C# save Network script");
+        #endif
         NeuralNetworks.NetworkData MyNet = MoveShootNet.GetNetworkData();
         
         //NeuralNetwork.SaveNetworkToFile(MyNet,"SomeNetwork.xml");  //not compatable with Mono 5.18 is compatable with 5.4
@@ -138,7 +186,7 @@ public class SmallBrain_II : Node
         }
         catch
         {
-            GD.Print("But Failed to Save DataA");
+            GD.Print("But Failed to Save DataA");//Not Normaly printed.
         }
 
         // try
@@ -179,10 +227,10 @@ public class SmallBrain_II : Node
             }
             catch
             {
-                GD.Print("But Failed to Load File");
+                GD.Print("But Failed to Load File");//Not Normaly printed.
             }
         }
-        else GD.Print("But Failed to Find File");
+        else GD.Print("But Failed to Find File");//Not Normaly printed.
 
         // //MoveShootNet = new BackPropogationNetwork(MyNet2);
         //MoveShootNet.Layers[0].SetValues(MyNet.Layers[0].Bias);
@@ -210,6 +258,17 @@ public class SmallBrain_II : Node
         //MoveShootNet = new NeuralNetworks.BackPropogationNetwork(MyNet); // Not working heap miss alinment ?
     }
 
+
+
+
+    public void trainnetwork()
+    {
+        #if DebugA
+        GD.Print("Training Now");
+        #endif
+        MoveShootNet.BatchBackPropogate(TrainingData.ToArray(), 10, 0.4, 0.2);
+    }
+
     public Godot.Collections.Dictionary<int, Node2D> sort_distance(Godot.Collections.Array<Node2D> SomeNodes)
     {
         // Godot.Collections.Array<Node> NodesDistance = null;
@@ -232,8 +291,10 @@ public class SmallBrain_II : Node
 
     public Godot.Collections.Array<Node2D> get_friends_informaion()
     {
+        string Theside = "";
         Godot.Collections.Array SomeNodes = null;
-        SomeNodes = GetTree().GetNodesInGroup("BlueBots");
+        Theside = (string) Parent.Get("Side");
+        SomeNodes = GetTree().GetNodesInGroup(Theside);
 
         return ArrayNodeto2D(SomeNodes);
     }
@@ -242,9 +303,18 @@ public class SmallBrain_II : Node
     public Godot.Collections.Array<Node2D> get_foe_informaion()
     {
         //Node Anode;
+        string Theside = "";
+        Theside = (string) Parent.Get("Side");
         Godot.Collections.Array<Node2D> SomeNodes = new Godot.Collections.Array<Node2D>();
         Godot.Collections.Array SomeOtherNodes = null;
-        SomeOtherNodes = GetTree().GetNodesInGroup("RedBots");
+        if (Theside == "BlueBots")
+        {
+            SomeOtherNodes = GetTree().GetNodesInGroup("RedBots");
+        }
+        else 
+        {
+            SomeOtherNodes = GetTree().GetNodesInGroup("BlueBots");
+        }
         foreach (Node Anode in SomeOtherNodes)
         {
             SomeNodes.Add((Node2D)Anode);

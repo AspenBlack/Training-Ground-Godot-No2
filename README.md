@@ -19,6 +19,10 @@ Which in turn haves dependance on an Neural Network Package.
 
 Have write workaround for problems in Mono and passing some of the objects to functions 
 
+26/05/2019
+Neural Network working and tainable !
+Note of Significants the Neural network is used in an analog fashion.
+
 
 
 Depencance Package(s)

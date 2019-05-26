@@ -29,34 +29,34 @@
       <ActType>SIGMOID</ActType>
       <NumNeuron>18</NumNeuron>
       <Bias>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
+        <double>0.023836486168796679</double>
+        <double>0.0041334226109545564</double>
+        <double>-0.00030349075126164096</double>
+        <double>0.015793402967282714</double>
+        <double>0.011209092681887389</double>
+        <double>-0.007618658271034153</double>
+        <double>0.01943786500942217</double>
+        <double>0.052951509522960807</double>
+        <double>0.052689936803658681</double>
+        <double>-0.0013978440139064702</double>
+        <double>0.014519743648868043</double>
+        <double>0.014089956659395046</double>
+        <double>0.0030544200317836807</double>
+        <double>0.02210087206488073</double>
+        <double>-0.042436111582794041</double>
+        <double>0.018163006034593015</double>
+        <double>0.015601914765402564</double>
+        <double>0.0013980071624942064</double>
       </Bias>
     </LayerData>
     <LayerData>
       <ActType>SIGMOID</ActType>
       <NumNeuron>4</NumNeuron>
       <Bias>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
-        <double>0</double>
+        <double>0.13559695099070573</double>
+        <double>-0.26347582352863153</double>
+        <double>0.0798401455064825</double>
+        <double>-0.30322229921695576</double>
       </Bias>
     </LayerData>
   </Layers>
@@ -70,7 +70,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.10944421058960452</Weight>
+      <Weight>0.16794609827682591</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -81,7 +81,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.27175365098368082</Weight>
+      <Weight>0.45029696386029405</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -92,7 +92,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.31513368283171844</Weight>
+      <Weight>-0.013146958624553153</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -103,7 +103,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.13425112312391918</Weight>
+      <Weight>-0.46894344590142673</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -114,7 +114,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.16010697822091496</Weight>
+      <Weight>-0.25206806915032071</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -125,7 +125,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.39425329440005741</Weight>
+      <Weight>-0.099699071469397549</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -136,7 +136,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.20822362169074993</Weight>
+      <Weight>0.19481041790480552</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -147,7 +147,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>-0.32449679301329737</Weight>
+      <Weight>0.14994377857392102</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -158,7 +158,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.36813555232628042</Weight>
+      <Weight>-0.08353509459801893</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -169,7 +169,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.16181309179487319</Weight>
+      <Weight>0.12386700261190993</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -180,7 +180,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.32672515177481115</Weight>
+      <Weight>0.030765220813168025</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -191,7 +191,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.400853582611705</Weight>
+      <Weight>0.25283718318186366</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -202,7 +202,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.17640225900169565</Weight>
+      <Weight>-0.11864740161527595</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -213,7 +213,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>-0.44473474703018312</Weight>
+      <Weight>-0.17048137513320469</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -224,7 +224,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.29666069466465184</Weight>
+      <Weight>-0.013035332440782319</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -235,7 +235,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.32262946191366271</Weight>
+      <Weight>0.50419166689100392</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -246,7 +246,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>-0.1524816903530069</Weight>
+      <Weight>0.15583337897300503</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -257,7 +257,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>-0.30315972622631104</Weight>
+      <Weight>-0.03755335785069204</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -268,7 +268,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.12652262748522808</Weight>
+      <Weight>0.35574863374170351</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -279,7 +279,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.25116517802288996</Weight>
+      <Weight>-0.14878170404153565</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -290,7 +290,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.4537873943121114</Weight>
+      <Weight>-0.21170455535703975</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -301,7 +301,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.43640505379829791</Weight>
+      <Weight>0.4612168330198016</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -312,7 +312,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.10570164891225364</Weight>
+      <Weight>-0.42780639188979763</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -323,7 +323,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.27230493201515871</Weight>
+      <Weight>-0.16773102500937573</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -334,7 +334,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.10371216694065938</Weight>
+      <Weight>-0.16262412397056547</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -345,7 +345,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>-0.32059099330594343</Weight>
+      <Weight>0.4961072242475556</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -356,7 +356,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.2202558972501456</Weight>
+      <Weight>-0.22392624861296395</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -367,7 +367,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.47182897989257655</Weight>
+      <Weight>-0.22779292344827973</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -378,7 +378,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>0.48953380900879107</Weight>
+      <Weight>-0.12189842529617669</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -389,7 +389,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>-0.47560404426213543</Weight>
+      <Weight>-0.11816542157394577</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -400,7 +400,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.24916862638162851</Weight>
+      <Weight>-0.039710839231830983</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -411,7 +411,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>-0.42367832638494596</Weight>
+      <Weight>-0.34423815925947465</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -422,7 +422,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.17729982579001219</Weight>
+      <Weight>0.35327695954842836</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -433,7 +433,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.0083604094145635077</Weight>
+      <Weight>0.44534543996365322</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -444,7 +444,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.47446326956826412</Weight>
+      <Weight>-0.23503790497235186</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -455,7 +455,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.055403613744025915</Weight>
+      <Weight>-0.28949163333561956</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -466,7 +466,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.18461170405364213</Weight>
+      <Weight>0.094293411443818018</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -477,7 +477,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.10295904828373303</Weight>
+      <Weight>-0.08805311145261481</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -488,7 +488,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.060548844542609892</Weight>
+      <Weight>-0.39032681218237747</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -499,7 +499,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.30565830962995921</Weight>
+      <Weight>-0.48610783022700677</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -510,7 +510,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.21157012121359359</Weight>
+      <Weight>0.45730719616332188</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -521,7 +521,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.4142371178205298</Weight>
+      <Weight>-0.14898897656619997</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -532,7 +532,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.30947063062781033</Weight>
+      <Weight>-0.45043783575788221</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -543,7 +543,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.22259494276838143</Weight>
+      <Weight>0.44775598891607521</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -554,7 +554,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>0.010370370238260485</Weight>
+      <Weight>0.41086032356733543</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -565,7 +565,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.14849755756952687</Weight>
+      <Weight>-0.11863614280568376</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -576,7 +576,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>0.013334491529192083</Weight>
+      <Weight>0.42975590424165067</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -587,7 +587,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>-0.092042357936521213</Weight>
+      <Weight>0.019302450204403319</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -598,7 +598,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.31094803698870732</Weight>
+      <Weight>0.4654259528601421</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -609,7 +609,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.15215415631055562</Weight>
+      <Weight>-0.0070153318816018224</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -620,7 +620,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.31895813570309345</Weight>
+      <Weight>0.075008547424190178</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -631,7 +631,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.23221948590698627</Weight>
+      <Weight>0.25789696419831348</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -642,7 +642,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>-0.40554588516501056</Weight>
+      <Weight>-0.32525149291940963</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -653,7 +653,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.2134542584947563</Weight>
+      <Weight>-0.30243553048820832</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -664,7 +664,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.40759474686700603</Weight>
+      <Weight>-0.47973085798706183</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -675,7 +675,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.045849264387902489</Weight>
+      <Weight>0.19420887016744659</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -686,7 +686,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.33394799792857277</Weight>
+      <Weight>0.37588582401223297</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -697,7 +697,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.0874386148468771</Weight>
+      <Weight>-0.33566292460083957</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -708,7 +708,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>0.46946104381674014</Weight>
+      <Weight>0.19143798967218578</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -719,7 +719,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.33951598491497148</Weight>
+      <Weight>-0.25691840294405938</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -730,7 +730,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>0.11450919165020301</Weight>
+      <Weight>-0.35438166202449245</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -741,7 +741,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>-0.23639464179817338</Weight>
+      <Weight>-0.056950680586248317</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -752,7 +752,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.31403060202208843</Weight>
+      <Weight>-0.2296446501427761</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -763,7 +763,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.392531508064145</Weight>
+      <Weight>0.49873572462523269</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -774,7 +774,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.41264446541324468</Weight>
+      <Weight>-0.3259721157571232</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -785,7 +785,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>-0.40304682538986525</Weight>
+      <Weight>-0.12433801319049807</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -796,7 +796,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.078153408401717139</Weight>
+      <Weight>0.38884938149457</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -807,7 +807,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.31523733158374079</Weight>
+      <Weight>-0.050662173849622127</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -818,7 +818,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.41919801659844724</Weight>
+      <Weight>-0.47654393396898914</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -829,7 +829,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.14793569159132225</Weight>
+      <Weight>-0.18283863856935453</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -840,7 +840,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>-0.36198224213997937</Weight>
+      <Weight>-0.077693099198801366</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -851,7 +851,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.24455926136326012</Weight>
+      <Weight>-0.26330708394683439</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -862,7 +862,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.13629142923107906</Weight>
+      <Weight>-0.12042534531180456</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -873,7 +873,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.067819062884812764</Weight>
+      <Weight>0.35484029267542572</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -884,7 +884,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.46040494319070357</Weight>
+      <Weight>-0.099755286725293324</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -895,7 +895,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.4604497235084184</Weight>
+      <Weight>0.45107465529870516</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -906,7 +906,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>0.37306557682951236</Weight>
+      <Weight>0.43577986809001562</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -917,7 +917,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.17170340831936493</Weight>
+      <Weight>-0.35229924287618397</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -928,7 +928,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.23806543822310189</Weight>
+      <Weight>-0.022424613921209396</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -939,7 +939,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>-0.45521460937113251</Weight>
+      <Weight>0.51583161315273918</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -950,7 +950,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>0.16607451516486449</Weight>
+      <Weight>-0.36661217747831837</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -961,7 +961,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>0.37178646068637555</Weight>
+      <Weight>0.2601465248312641</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -972,7 +972,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.28277701688128387</Weight>
+      <Weight>-0.1741927804663492</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -983,7 +983,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>-0.16262034730176456</Weight>
+      <Weight>0.41437008304127954</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -994,7 +994,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.34335409144095796</Weight>
+      <Weight>0.28295613650913243</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1005,7 +1005,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.018611887711385222</Weight>
+      <Weight>0.23940294663107489</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1016,7 +1016,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>0.4818675587800646</Weight>
+      <Weight>0.4394040851741472</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1027,7 +1027,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.10924591571523157</Weight>
+      <Weight>0.18091092267467809</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1038,7 +1038,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.10076566254755748</Weight>
+      <Weight>0.45729840725318704</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1049,7 +1049,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>-0.07138599481963831</Weight>
+      <Weight>0.073917851221890846</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1060,7 +1060,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.22145561581545303</Weight>
+      <Weight>-0.16385900406139653</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1071,7 +1071,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.22794968109948083</Weight>
+      <Weight>-0.0744928095733592</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1082,7 +1082,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.13349800446699278</Weight>
+      <Weight>0.22507141433880976</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1093,7 +1093,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.099935170542418572</Weight>
+      <Weight>0.36311403400740355</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1104,7 +1104,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.30885088202024386</Weight>
+      <Weight>0.37170302708168884</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1115,7 +1115,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.47517547941542021</Weight>
+      <Weight>0.040523602418355516</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1126,7 +1126,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>0.39979348420155858</Weight>
+      <Weight>-0.37945623110436405</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1137,7 +1137,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>-0.41693912256366533</Weight>
+      <Weight>-0.45815333076297055</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1148,7 +1148,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>0.13523940818162605</Weight>
+      <Weight>0.25401413289905095</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1159,7 +1159,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.086582804371874211</Weight>
+      <Weight>0.011260508928405582</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1170,7 +1170,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>0.273349034028756</Weight>
+      <Weight>-0.0035591129128669241</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1181,7 +1181,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.1980971599454513</Weight>
+      <Weight>-0.013438673409861768</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1192,7 +1192,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.17284434133807397</Weight>
+      <Weight>-0.039813187477748604</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1203,7 +1203,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>-0.33698765460261504</Weight>
+      <Weight>0.15964560982379247</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1214,7 +1214,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>0.014136398450534937</Weight>
+      <Weight>-0.43635283958616611</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1225,7 +1225,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>-0.063517397066353565</Weight>
+      <Weight>-0.13296649363183138</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1236,7 +1236,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>-0.40407194332409274</Weight>
+      <Weight>-0.10386391871896365</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1247,7 +1247,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.026635051950176791</Weight>
+      <Weight>-0.18486174438179384</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1258,7 +1258,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.25304931530405272</Weight>
+      <Weight>0.3243486488545424</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1269,7 +1269,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.44714502335858763</Weight>
+      <Weight>-0.42261841439902664</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1280,7 +1280,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.17278368755839002</Weight>
+      <Weight>0.26856991888337994</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1291,7 +1291,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.33775541039079215</Weight>
+      <Weight>0.23816844727242836</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1302,7 +1302,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.34937317662377521</Weight>
+      <Weight>0.21274765830451708</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1313,7 +1313,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.4246756531878727</Weight>
+      <Weight>0.22149384802255934</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1324,7 +1324,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.0055905000798360249</Weight>
+      <Weight>-0.30062375384107665</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1335,7 +1335,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.24272273096382746</Weight>
+      <Weight>-0.06581661520555715</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1346,7 +1346,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.45361762491688951</Weight>
+      <Weight>-0.33710602193286371</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1357,7 +1357,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>0.34858974527967612</Weight>
+      <Weight>-0.1628155282280459</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1368,7 +1368,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.23588559950510302</Weight>
+      <Weight>-0.26253460090644493</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1379,7 +1379,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.068743646875370157</Weight>
+      <Weight>-0.03203829226005292</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1390,7 +1390,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.38491438416992985</Weight>
+      <Weight>-0.11887504135131947</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1401,7 +1401,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.46890749268648568</Weight>
+      <Weight>-0.24652031135684321</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1412,7 +1412,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.28552833096381663</Weight>
+      <Weight>-0.054092861043121845</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1423,7 +1423,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.15218797822119112</Weight>
+      <Weight>-0.0001805466239292449</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1434,7 +1434,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.42648007577586922</Weight>
+      <Weight>0.48972317317823089</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1445,7 +1445,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.36596743895950146</Weight>
+      <Weight>0.48880335883252213</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1456,7 +1456,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.38893874310373272</Weight>
+      <Weight>0.015760210698582484</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1467,7 +1467,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.26377340022650242</Weight>
+      <Weight>-0.0094077760762177245</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1478,7 +1478,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.12333005509494338</Weight>
+      <Weight>0.47907914332209439</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1489,7 +1489,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.43558042260612384</Weight>
+      <Weight>0.36284695089746294</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1500,7 +1500,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.43934376069314024</Weight>
+      <Weight>0.31586975026449404</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1511,7 +1511,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.29000469939317775</Weight>
+      <Weight>0.38320194922294615</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1522,7 +1522,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.46353599986226113</Weight>
+      <Weight>-0.089253174585787035</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1533,7 +1533,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.34851736614877238</Weight>
+      <Weight>0.45464907468800519</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1544,7 +1544,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.22856364339988849</Weight>
+      <Weight>-0.030411505681693343</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1555,7 +1555,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>0.46797735521941319</Weight>
+      <Weight>0.085827999091248441</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1566,7 +1566,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>0.044630802024449578</Weight>
+      <Weight>-0.19509005473579974</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1577,7 +1577,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>-0.44578936227866883</Weight>
+      <Weight>0.15380709950418286</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1588,7 +1588,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.3232432542477004</Weight>
+      <Weight>0.33162531194389949</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1599,7 +1599,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>-0.093128511492688471</Weight>
+      <Weight>-0.081590547223899426</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1610,7 +1610,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.077316168964522036</Weight>
+      <Weight>-0.19045715798507398</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1621,7 +1621,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>-0.044767493170112138</Weight>
+      <Weight>0.17797572476563275</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1632,7 +1632,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.35619660041117884</Weight>
+      <Weight>0.36683261757078506</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1643,7 +1643,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.15362063918896984</Weight>
+      <Weight>0.36682147978427071</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1654,7 +1654,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.25583031762197161</Weight>
+      <Weight>0.3316861035842833</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1665,7 +1665,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.059211026206245188</Weight>
+      <Weight>0.11979565349632637</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1676,7 +1676,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.37857650447570557</Weight>
+      <Weight>0.22537176648934271</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1687,7 +1687,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.20882235127912008</Weight>
+      <Weight>0.51334471168450269</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1698,7 +1698,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>0.40565532953741745</Weight>
+      <Weight>0.19890416784924983</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1709,7 +1709,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.051573612984071315</Weight>
+      <Weight>-0.0096207585277052355</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1720,7 +1720,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>0.47844214550146935</Weight>
+      <Weight>-0.036224427701734417</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1731,7 +1731,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>-0.44879626107811754</Weight>
+      <Weight>0.34317346183896824</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1742,7 +1742,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>0.31894647694143763</Weight>
+      <Weight>0.38020524596248323</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1753,7 +1753,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.43350423869374405</Weight>
+      <Weight>-0.20291306356312858</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1764,7 +1764,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.20166842020194437</Weight>
+      <Weight>-0.34887630252770041</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1775,7 +1775,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.30444154134227031</Weight>
+      <Weight>-0.21519405281563361</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1786,7 +1786,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.01637450909073207</Weight>
+      <Weight>0.49291006920341157</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1797,7 +1797,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.17496768044073496</Weight>
+      <Weight>0.50793927388745219</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1808,7 +1808,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.26346773037848426</Weight>
+      <Weight>0.13628837975415692</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1819,7 +1819,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.14816895949103359</Weight>
+      <Weight>-0.39868033496542693</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1830,7 +1830,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>-0.17457865396262084</Weight>
+      <Weight>0.37349495223680113</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1841,7 +1841,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.35970145690240962</Weight>
+      <Weight>0.40689615834932763</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1852,7 +1852,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.35003489295487988</Weight>
+      <Weight>-0.15127426162839128</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1863,7 +1863,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.31746889269792888</Weight>
+      <Weight>0.43882117086264366</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1874,7 +1874,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.38648878405172782</Weight>
+      <Weight>-0.24117429593434345</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1885,7 +1885,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.38277898816521227</Weight>
+      <Weight>0.39261769306618383</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1896,7 +1896,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.374219410528531</Weight>
+      <Weight>-0.18114108225166778</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1907,7 +1907,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.19789054277254758</Weight>
+      <Weight>0.25193749362484535</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1918,7 +1918,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>0.15323929658776114</Weight>
+      <Weight>-0.2174212492943316</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1929,7 +1929,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.026432144700750726</Weight>
+      <Weight>0.11872743189727483</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1940,7 +1940,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.30190807106062212</Weight>
+      <Weight>-0.40203986214515719</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1951,7 +1951,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>0.49217173736177933</Weight>
+      <Weight>-0.051136798123818439</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1962,7 +1962,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.47465350896802427</Weight>
+      <Weight>0.015683626886580239</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1973,7 +1973,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.3572429119875854</Weight>
+      <Weight>0.31411927968815739</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1984,7 +1984,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.35394018416010786</Weight>
+      <Weight>-0.36563776469596559</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -1995,7 +1995,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.15985310900018235</Weight>
+      <Weight>0.2152828536091704</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2006,7 +2006,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.38728910772469316</Weight>
+      <Weight>-0.15909697167340289</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2017,7 +2017,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.060851029847213578</Weight>
+      <Weight>0.139467893391956</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2028,7 +2028,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.39635766059921951</Weight>
+      <Weight>0.18334229177323838</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2039,7 +2039,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>-0.13273095043037597</Weight>
+      <Weight>-0.14290033385174497</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2050,7 +2050,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.24454394343520702</Weight>
+      <Weight>-0.23858639771984258</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2061,7 +2061,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.097761094382852853</Weight>
+      <Weight>0.016135836726117847</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2072,7 +2072,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.16942872976391982</Weight>
+      <Weight>0.30413691643818141</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2083,7 +2083,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.42824355788912793</Weight>
+      <Weight>-0.020292856507139689</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2094,7 +2094,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>0.45713827710465449</Weight>
+      <Weight>-0.081170049300962166</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2105,7 +2105,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.4905474996150227</Weight>
+      <Weight>-0.46673174666554285</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2116,7 +2116,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>0.47105822245174</Weight>
+      <Weight>-0.43274954051373038</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2127,7 +2127,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.469968238831483</Weight>
+      <Weight>-0.39212403301714177</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2138,7 +2138,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>0.050185786350716688</Weight>
+      <Weight>0.309557242230306</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2149,7 +2149,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.033005184742158855</Weight>
+      <Weight>-0.30964105986507662</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2160,7 +2160,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.015648135689854681</Weight>
+      <Weight>0.096845476234725392</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2171,7 +2171,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.36966312158371473</Weight>
+      <Weight>-0.179834851846022</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2182,7 +2182,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.31767836809981542</Weight>
+      <Weight>0.46408238912191357</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2193,7 +2193,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>-0.32492570524333309</Weight>
+      <Weight>0.25125018309394376</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2204,7 +2204,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.41854985753006763</Weight>
+      <Weight>0.058775266426976391</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2215,7 +2215,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.062982374133068286</Weight>
+      <Weight>-0.086692052235217809</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2226,7 +2226,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>-0.19473260021523225</Weight>
+      <Weight>-0.16176451680332632</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2237,7 +2237,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>-0.46127229228675004</Weight>
+      <Weight>0.42692886242965644</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2248,7 +2248,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.26713185513724191</Weight>
+      <Weight>0.10753585566186152</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2259,7 +2259,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.37305132945675934</Weight>
+      <Weight>0.41923709815332533</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2270,7 +2270,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.066569563265223786</Weight>
+      <Weight>-0.19794036620200628</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2281,7 +2281,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.319314038296842</Weight>
+      <Weight>0.46969199225757829</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2292,7 +2292,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.44441694530864106</Weight>
+      <Weight>0.22245905814806888</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2303,7 +2303,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.12077681516333333</Weight>
+      <Weight>-0.40463133850350574</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2314,7 +2314,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.24966554192344914</Weight>
+      <Weight>-0.070147301335887646</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2325,7 +2325,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.48627040813969</Weight>
+      <Weight>0.49105170741260595</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2336,7 +2336,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.47414275211009327</Weight>
+      <Weight>-0.22763951715437675</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2347,7 +2347,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>0.46170356495385223</Weight>
+      <Weight>-0.488963893143909</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2358,7 +2358,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>0.42043594546636376</Weight>
+      <Weight>-0.33396853964494938</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2369,7 +2369,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.13847847079787334</Weight>
+      <Weight>-0.069517752420863943</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2380,7 +2380,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.19173064906696358</Weight>
+      <Weight>0.40429847915857031</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2391,7 +2391,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.42277446106205441</Weight>
+      <Weight>-0.14040713740531685</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2402,7 +2402,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>0.27861001984151545</Weight>
+      <Weight>-0.19327415651328589</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2413,7 +2413,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.36926322005189172</Weight>
+      <Weight>-0.16961007549874951</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2424,7 +2424,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.40362501605582657</Weight>
+      <Weight>0.31831378481272321</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2435,7 +2435,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.423182440420232</Weight>
+      <Weight>-0.16118852452430338</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2446,7 +2446,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.029130186666329494</Weight>
+      <Weight>-0.38864780893831713</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2457,7 +2457,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.27827845084400776</Weight>
+      <Weight>0.35795958710778342</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2468,7 +2468,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.36033061559327439</Weight>
+      <Weight>0.017634577217949247</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2479,7 +2479,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.37703628366675057</Weight>
+      <Weight>-0.26748448765831617</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2490,7 +2490,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>0.41172076571347227</Weight>
+      <Weight>0.32168396162742208</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2501,7 +2501,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.344187649360014</Weight>
+      <Weight>-0.29833146155536516</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2512,7 +2512,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>0.25192367087673562</Weight>
+      <Weight>0.45484585899629976</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2523,7 +2523,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>-0.31375551867008</Weight>
+      <Weight>-0.39546784787220329</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2534,7 +2534,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.45791971960939454</Weight>
+      <Weight>0.51603279011717</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2545,7 +2545,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.17157119264433679</Weight>
+      <Weight>0.24881712912734549</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2556,7 +2556,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.3255066307380361</Weight>
+      <Weight>-0.008219698557881008</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2567,7 +2567,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.35027219627530881</Weight>
+      <Weight>0.26267550574405013</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2578,7 +2578,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.27579276951765308</Weight>
+      <Weight>-0.25093014591842355</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2589,7 +2589,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.083077441706823851</Weight>
+      <Weight>0.22891751799422197</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2600,7 +2600,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.1454142907845854</Weight>
+      <Weight>-0.15311199399780409</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2611,7 +2611,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>-0.42601681543794312</Weight>
+      <Weight>-0.055357544140408423</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2622,7 +2622,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.29371917470997166</Weight>
+      <Weight>-0.471137523750828</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2633,7 +2633,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>-0.47669366885753983</Weight>
+      <Weight>0.25630413485687165</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2644,7 +2644,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.43383861283484781</Weight>
+      <Weight>-0.44271340473969945</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2655,7 +2655,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.42522990513836489</Weight>
+      <Weight>-0.20775826268073952</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2666,7 +2666,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.15334414907421179</Weight>
+      <Weight>0.29363858787558778</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2677,7 +2677,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.45134808539941351</Weight>
+      <Weight>0.21075561570908438</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2688,7 +2688,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>0.17790909981257708</Weight>
+      <Weight>-0.44873506094227655</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2699,7 +2699,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.47086786896496446</Weight>
+      <Weight>-0.073180451786105161</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2710,7 +2710,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>0.48359525249507063</Weight>
+      <Weight>0.2633537320696705</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2721,7 +2721,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>-0.49064534250211217</Weight>
+      <Weight>-0.43712249870281761</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2732,7 +2732,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.45046770663488084</Weight>
+      <Weight>0.44847474003716681</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2743,7 +2743,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>0.41170731555284346</Weight>
+      <Weight>-0.12110090518986802</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2754,7 +2754,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>0.27526416619087768</Weight>
+      <Weight>-0.21211244822048414</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2765,7 +2765,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.061577403248090912</Weight>
+      <Weight>-0.26097437886442681</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2776,7 +2776,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.40894689825780078</Weight>
+      <Weight>-0.48617634327470982</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2787,7 +2787,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.4484151480479236</Weight>
+      <Weight>0.13647352621589781</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2798,7 +2798,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.22855072129915965</Weight>
+      <Weight>0.42759645071629565</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2809,7 +2809,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>-0.34173229795029958</Weight>
+      <Weight>-0.27775066912202828</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2820,7 +2820,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>-0.46614781253326115</Weight>
+      <Weight>-0.1858260842872976</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2831,7 +2831,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>-0.41645414937122449</Weight>
+      <Weight>-0.017769918061342333</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2842,7 +2842,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.32160290788002444</Weight>
+      <Weight>-0.080765677391319318</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2853,7 +2853,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.39009557147049134</Weight>
+      <Weight>-0.11643873310886785</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2864,7 +2864,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.46133056374328707</Weight>
+      <Weight>-0.39775273264478117</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2875,7 +2875,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.22238191390520984</Weight>
+      <Weight>-0.39621409016772335</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2886,7 +2886,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.4326096325798936</Weight>
+      <Weight>-0.47205564548174961</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2897,7 +2897,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.36933857336143894</Weight>
+      <Weight>0.13748883023900932</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2908,7 +2908,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.16285709555393879</Weight>
+      <Weight>-0.38978369932667079</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2919,7 +2919,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.4219056507208877</Weight>
+      <Weight>0.20280551870823679</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2930,7 +2930,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>0.31177703887772612</Weight>
+      <Weight>0.027778890980974118</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2941,7 +2941,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.32441494838540208</Weight>
+      <Weight>0.015156154154698268</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2952,7 +2952,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.31408920456380079</Weight>
+      <Weight>0.26941472471250266</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2963,7 +2963,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>-0.16264149624046009</Weight>
+      <Weight>-0.047425030917515043</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2974,7 +2974,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.21610723841754126</Weight>
+      <Weight>-0.43337211567720729</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2985,7 +2985,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.1177474645049067</Weight>
+      <Weight>-0.023192581318712636</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -2996,7 +2996,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.37094471364791726</Weight>
+      <Weight>-0.18048610741560325</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3007,7 +3007,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>0.25530368869905529</Weight>
+      <Weight>0.058696788322598996</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3018,7 +3018,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.4354246072170439</Weight>
+      <Weight>-0.21730560067963145</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3029,7 +3029,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.47839511091746167</Weight>
+      <Weight>0.027182809903017489</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3040,7 +3040,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.0765265894944438</Weight>
+      <Weight>0.059958117415409559</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3051,7 +3051,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.077782101266915982</Weight>
+      <Weight>-0.10510047422041392</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3062,7 +3062,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.043812449343415216</Weight>
+      <Weight>0.30613813355153113</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3073,7 +3073,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.38946274662830993</Weight>
+      <Weight>-0.40019150432195727</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3084,7 +3084,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>0.39344103117167994</Weight>
+      <Weight>-0.028216167929180892</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3095,7 +3095,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.40236610821558449</Weight>
+      <Weight>0.25590935675916743</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3106,7 +3106,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.39371994272513311</Weight>
+      <Weight>-0.22481026566519416</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3117,7 +3117,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.34021635532389227</Weight>
+      <Weight>0.10033780041771774</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3128,7 +3128,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>-0.089019684860957626</Weight>
+      <Weight>0.32845776938590587</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3139,7 +3139,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>-0.019497122857485505</Weight>
+      <Weight>0.25524269292625218</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3150,7 +3150,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>-0.262624294386536</Weight>
+      <Weight>0.24500874304014764</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3161,7 +3161,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>-0.27392177878595969</Weight>
+      <Weight>0.36060342632485903</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3172,7 +3172,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.078822917574468465</Weight>
+      <Weight>0.325576829969008</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3183,7 +3183,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>0.11752506746795266</Weight>
+      <Weight>-0.45846392032035904</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3194,7 +3194,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>0.049225254240085059</Weight>
+      <Weight>-0.11919150250658442</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3205,7 +3205,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>-0.22896014141336091</Weight>
+      <Weight>0.39438584986041869</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3216,7 +3216,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.39558609244208132</Weight>
+      <Weight>-0.46263280655461192</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3227,7 +3227,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>0.40362360323948021</Weight>
+      <Weight>0.14120467616733953</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3238,7 +3238,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.4380242326008269</Weight>
+      <Weight>0.18238945182223951</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3249,7 +3249,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.1562205267400576</Weight>
+      <Weight>0.46221332687228223</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3260,7 +3260,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.3578395377182586</Weight>
+      <Weight>-0.23185708528953849</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3271,7 +3271,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.022682722435650726</Weight>
+      <Weight>-0.327774994018989</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3282,7 +3282,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>0.1142051809533523</Weight>
+      <Weight>0.12043070116454474</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3293,7 +3293,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>0.25600344909168937</Weight>
+      <Weight>-0.13986868530920976</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3304,7 +3304,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.34090916991276166</Weight>
+      <Weight>0.44595947999793789</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3315,7 +3315,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.3080102008804726</Weight>
+      <Weight>-0.19027867217300498</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3326,7 +3326,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>0.32344386206168863</Weight>
+      <Weight>-0.14282459664038841</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3337,7 +3337,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>0.2121737896055792</Weight>
+      <Weight>-0.0064819604979923524</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3348,7 +3348,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>0.12781455397038466</Weight>
+      <Weight>-0.16855946964283769</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3359,7 +3359,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>-0.342483298314029</Weight>
+      <Weight>0.33576932588819514</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3370,7 +3370,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>-0.067477883103991831</Weight>
+      <Weight>0.403534043796114</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3381,7 +3381,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>-0.16425058695685613</Weight>
+      <Weight>-0.010637706253677858</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3392,7 +3392,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>-0.48700945916912025</Weight>
+      <Weight>-0.19414991383057498</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3403,7 +3403,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>-0.20694583221662127</Weight>
+      <Weight>-0.071510822448529424</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3414,7 +3414,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.081741112555256623</Weight>
+      <Weight>0.19385147963113583</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3425,7 +3425,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>-0.043929913800177134</Weight>
+      <Weight>0.42158609145326342</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3436,7 +3436,7 @@
         <Layer>1</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.039733401285360292</Weight>
+      <Weight>0.18484724324700161</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3447,7 +3447,7 @@
         <Layer>1</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.21106565450833442</Weight>
+      <Weight>-0.179241727633831</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3458,7 +3458,7 @@
         <Layer>1</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.4966545402988114</Weight>
+      <Weight>0.41688570296974642</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3469,7 +3469,7 @@
         <Layer>1</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.44103554447229742</Weight>
+      <Weight>-0.15222913347291106</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3480,7 +3480,7 @@
         <Layer>1</Layer>
         <Node>4</Node>
       </To>
-      <Weight>-0.32866197118007667</Weight>
+      <Weight>0.33830032539881233</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3491,7 +3491,7 @@
         <Layer>1</Layer>
         <Node>5</Node>
       </To>
-      <Weight>-0.27282598790378587</Weight>
+      <Weight>-0.047114618955787557</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3502,7 +3502,7 @@
         <Layer>1</Layer>
         <Node>6</Node>
       </To>
-      <Weight>-0.04164174177760338</Weight>
+      <Weight>0.35245366524044763</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3513,7 +3513,7 @@
         <Layer>1</Layer>
         <Node>7</Node>
       </To>
-      <Weight>0.35664002730354671</Weight>
+      <Weight>-0.1338484419702142</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3524,7 +3524,7 @@
         <Layer>1</Layer>
         <Node>8</Node>
       </To>
-      <Weight>0.18452994510742371</Weight>
+      <Weight>0.46461439291126766</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3535,7 +3535,7 @@
         <Layer>1</Layer>
         <Node>9</Node>
       </To>
-      <Weight>0.085698817663685811</Weight>
+      <Weight>0.15314206429093513</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3546,7 +3546,7 @@
         <Layer>1</Layer>
         <Node>10</Node>
       </To>
-      <Weight>0.096762134040129455</Weight>
+      <Weight>0.19762470469871027</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3557,7 +3557,7 @@
         <Layer>1</Layer>
         <Node>11</Node>
       </To>
-      <Weight>0.0683857279682466</Weight>
+      <Weight>0.24087920252119471</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3568,7 +3568,7 @@
         <Layer>1</Layer>
         <Node>12</Node>
       </To>
-      <Weight>0.28813324951945485</Weight>
+      <Weight>-0.45940788420906858</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3579,7 +3579,7 @@
         <Layer>1</Layer>
         <Node>13</Node>
       </To>
-      <Weight>-0.48714709700418035</Weight>
+      <Weight>-0.30929731652719528</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3590,7 +3590,7 @@
         <Layer>1</Layer>
         <Node>14</Node>
       </To>
-      <Weight>0.22216137206282527</Weight>
+      <Weight>-0.076430867918932277</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3601,7 +3601,7 @@
         <Layer>1</Layer>
         <Node>15</Node>
       </To>
-      <Weight>-0.27456831688739747</Weight>
+      <Weight>0.20405657705363842</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3612,7 +3612,7 @@
         <Layer>1</Layer>
         <Node>16</Node>
       </To>
-      <Weight>0.19332792129988219</Weight>
+      <Weight>0.40366531823555679</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3623,7 +3623,7 @@
         <Layer>1</Layer>
         <Node>17</Node>
       </To>
-      <Weight>-0.2207959195230137</Weight>
+      <Weight>-0.18053606170479758</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3634,7 +3634,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.37944442680079693</Weight>
+      <Weight>-0.14519321519716483</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3645,7 +3645,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.40079068806990548</Weight>
+      <Weight>-0.29870167454776964</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3656,7 +3656,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.46357692031356368</Weight>
+      <Weight>0.34251005319569627</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3667,7 +3667,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.28780900025172573</Weight>
+      <Weight>-0.28232203508386372</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3678,7 +3678,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.23037191654107159</Weight>
+      <Weight>-0.21260685895208545</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3689,7 +3689,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.41456916970879265</Weight>
+      <Weight>-0.51350010315388372</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3700,7 +3700,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.42107775384610413</Weight>
+      <Weight>0.038232935648204736</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3711,7 +3711,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.10589373233071236</Weight>
+      <Weight>-0.00043133028354923119</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3722,7 +3722,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.28759819864649239</Weight>
+      <Weight>-0.14956419369199425</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3733,7 +3733,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.24653638654692861</Weight>
+      <Weight>0.2889620358160877</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3744,7 +3744,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.45201923975349367</Weight>
+      <Weight>0.41331182541545475</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3755,7 +3755,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.40162629257032012</Weight>
+      <Weight>-0.44298336582753028</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3766,7 +3766,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.28691231961683944</Weight>
+      <Weight>0.074155226377141018</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3777,7 +3777,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.21423125020891021</Weight>
+      <Weight>-0.24002653443341906</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3788,7 +3788,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.46421604508730396</Weight>
+      <Weight>-0.099978756736309474</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3799,7 +3799,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.40684483195973786</Weight>
+      <Weight>-0.19349099118781474</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3810,7 +3810,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.23130645730127886</Weight>
+      <Weight>-0.16861071995684981</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3821,7 +3821,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.10665174695041579</Weight>
+      <Weight>-0.03368019958153981</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3832,7 +3832,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.40696906294066881</Weight>
+      <Weight>0.2963784762491859</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3843,7 +3843,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.49698868812852942</Weight>
+      <Weight>-0.46695462263329895</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3854,7 +3854,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.015117502079865675</Weight>
+      <Weight>-0.3049254432561615</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3865,7 +3865,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.13066552562204448</Weight>
+      <Weight>0.17378125173968695</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3876,7 +3876,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.48104098065804735</Weight>
+      <Weight>-0.14961958809937456</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3887,7 +3887,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.2575651536498057</Weight>
+      <Weight>-0.39924594155856719</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3898,7 +3898,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.42852649601573428</Weight>
+      <Weight>-0.0070575082530697514</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3909,7 +3909,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.073392012423552533</Weight>
+      <Weight>-0.36589907655747855</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3920,7 +3920,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.2887519331596568</Weight>
+      <Weight>0.093111193908757647</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3931,7 +3931,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.24494186590655792</Weight>
+      <Weight>-0.096970415859866335</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3942,7 +3942,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.42404054008612435</Weight>
+      <Weight>0.065700378510806928</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3953,7 +3953,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.11496165097456501</Weight>
+      <Weight>-0.58773616223255554</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3964,7 +3964,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.064644670376854341</Weight>
+      <Weight>-0.056583479624446882</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3975,7 +3975,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.29290956621659436</Weight>
+      <Weight>-0.54867460395733147</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3986,7 +3986,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.14242149174326169</Weight>
+      <Weight>0.13720174143589398</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -3997,7 +3997,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.23378646035389339</Weight>
+      <Weight>-0.60854028676666327</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4008,7 +4008,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.32750140541582434</Weight>
+      <Weight>-0.30912481694517457</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4019,7 +4019,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.0174681993748379</Weight>
+      <Weight>-0.38573920551835977</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4030,7 +4030,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.0075068341137407568</Weight>
+      <Weight>-0.26631145703022535</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4041,7 +4041,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.25192440103363456</Weight>
+      <Weight>-0.45435293284123462</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4052,7 +4052,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.058562428950594048</Weight>
+      <Weight>-0.289932855289269</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4063,7 +4063,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.41122371000760405</Weight>
+      <Weight>-0.025092500380725608</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4074,7 +4074,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.48004220937380671</Weight>
+      <Weight>0.43014763800987454</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4085,7 +4085,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.27723176115063564</Weight>
+      <Weight>-0.54476147529382324</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4096,7 +4096,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.48522778925729348</Weight>
+      <Weight>-0.26482962760766476</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4107,7 +4107,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.29510535523067477</Weight>
+      <Weight>0.24057286216734591</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4118,7 +4118,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.30865926705704039</Weight>
+      <Weight>0.11126485996380087</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4129,7 +4129,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.28290365253710359</Weight>
+      <Weight>-0.067078367232334735</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4140,7 +4140,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.12738886271947475</Weight>
+      <Weight>-0.26891362228084914</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4151,7 +4151,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.18900661575096034</Weight>
+      <Weight>-0.49893264926176173</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4162,7 +4162,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.032601773055550565</Weight>
+      <Weight>0.0059301136087232557</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4173,7 +4173,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.19497808147919271</Weight>
+      <Weight>-0.18819020653919633</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4184,7 +4184,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.21845355430545915</Weight>
+      <Weight>0.54756653303835934</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4195,7 +4195,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.38449037488759047</Weight>
+      <Weight>-0.0451811583485673</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4206,7 +4206,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.18153737982806628</Weight>
+      <Weight>0.56132828975212368</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4217,7 +4217,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.19031660942841166</Weight>
+      <Weight>-0.087016333785727762</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4228,7 +4228,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.29432158255685192</Weight>
+      <Weight>-0.25271990606949418</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4239,7 +4239,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.010109952422841406</Weight>
+      <Weight>-0.25337443932851889</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4250,7 +4250,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.41974970741185813</Weight>
+      <Weight>-0.33247658719388679</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4261,7 +4261,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>-0.293988233336242</Weight>
+      <Weight>-0.13246269651050346</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4272,7 +4272,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.21633549626746007</Weight>
+      <Weight>-0.43878829078014253</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4283,7 +4283,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.343020095882481</Weight>
+      <Weight>0.2173168780719747</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4294,7 +4294,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.3741827634508641</Weight>
+      <Weight>0.26300198026495908</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4305,7 +4305,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.32386411206045385</Weight>
+      <Weight>0.22053417939831343</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4316,7 +4316,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.029934272416836716</Weight>
+      <Weight>-0.13115121509249747</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4327,7 +4327,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.0974401503789426</Weight>
+      <Weight>-0.59581343343486959</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4338,7 +4338,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>0.31810828382992573</Weight>
+      <Weight>0.22224436907367068</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4349,7 +4349,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.34089032646310069</Weight>
+      <Weight>-0.0888557005938216</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4360,7 +4360,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>-0.24079519917294162</Weight>
+      <Weight>0.28180234199690596</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4371,7 +4371,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>-0.020698779970732883</Weight>
+      <Weight>-0.3231853435929995</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4382,7 +4382,7 @@
         <Layer>2</Layer>
         <Node>0</Node>
       </To>
-      <Weight>-0.38672984479308586</Weight>
+      <Weight>-0.10477325959877164</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4393,7 +4393,7 @@
         <Layer>2</Layer>
         <Node>1</Node>
       </To>
-      <Weight>0.053252154287533937</Weight>
+      <Weight>-0.67520825722232791</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4404,7 +4404,7 @@
         <Layer>2</Layer>
         <Node>2</Node>
       </To>
-      <Weight>0.10066200215400289</Weight>
+      <Weight>-0.072658378711472876</Weight>
     </ConnectionData>
     <ConnectionData>
       <From>
@@ -4415,7 +4415,7 @@
         <Layer>2</Layer>
         <Node>3</Node>
       </To>
-      <Weight>0.4793820562676443</Weight>
+      <Weight>0.1859772327323288</Weight>
     </ConnectionData>
   </Connections>
   <InputLayerId>0</InputLayerId>
