@@ -1,0 +1,7 @@
+Need to estimaite reward for actions
+When lanch projectial/attack need to keep track and record resolt with the data captured at time of lanch.
++1 for hit, 0 for miss, -1 for own side.
+
+For movent need a score that is applied to the last x number of data.  This score decays with time.
+-1 for being hit, +0.1 for not being hit, -0.1 for runing into walls or palyer on same side.
+
