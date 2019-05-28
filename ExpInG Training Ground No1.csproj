@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subscene\MoreDataTypes.cs" />
     <Compile Include="Subscene\Neural.cs" />
     <Compile Include="Subscene\SmallBrain_II.cs" />
   </ItemGroup>

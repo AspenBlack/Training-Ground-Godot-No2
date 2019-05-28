@@ -15,6 +15,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Collections.Generic;
 using System.Linq;
+using MoreDataTypes;
 
 
 
@@ -49,6 +50,8 @@ public class SmallBrain_II : Node
     System.Collections.Generic.IEnumerable <double> data_out2 = new double[4];
     System.Collections.Generic.List <NeuralNetworks.DataSet> TrainingData = new System.Collections.Generic.List <NeuralNetworks.DataSet>();
     NeuralNetworks.DataSet Training ;//= new  NeuralNetworks.DataSet();
+
+    DataType3 FirstData = new DataType3(18,4,3);
 
 
     // Called when the node enters the scene tree for the first time.
@@ -99,6 +102,8 @@ public class SmallBrain_II : Node
         data_in[15] = Enviroment[1].Position.y;
         data_in[16] = Enviroment[2].Position.x;
         data_in[17] = Enviroment[2].Position.y;
+
+        FirstData.Inputs[0] = ClosestFoe[0].Position.x;
 
         #if (DebugA)
         MyString ="";
