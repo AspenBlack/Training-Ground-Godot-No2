@@ -33,3 +33,6 @@ http://www.codeproject.com/Articles/1016734/Parallel-Artificial-Neural-Networks-
 GitHub link:
 https://github.com/hemanthk119/NeuralNetworks/
 
+Other Sources 
+
+https://github.com/steincodes/real-time-strategy-2d-godot

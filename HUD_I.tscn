@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Art/Save_128_V1.png" type="Texture" id=1]
 [ext_resource path="res://Art/Save_128_V2.png" type="Texture" id=2]
@@ -6,19 +6,14 @@
 [ext_resource path="res://Art/load_128_V2.png" type="Texture" id=4]
 [ext_resource path="res://Art/train_V1.png" type="Texture" id=5]
 [ext_resource path="res://Art/train_V2.png" type="Texture" id=6]
-[ext_resource path="res://Subscene/Wall.tscn" type="PackedScene" id=7]
-[ext_resource path="res://Subscene/Player_TestA.tscn" type="PackedScene" id=8]
-[ext_resource path="res://Subscene/Player_Test_C.gd" type="Script" id=9]
-[ext_resource path="res://Subscene/Player_TestB.tscn" type="PackedScene" id=10]
-[ext_resource path="res://Subscene/TestTarget_II_.tscn" type="PackedScene" id=11]
 
-[node name="Node" type="Node"]
+[node name="CanvasLayer" type="CanvasLayer"]
 
 [node name="GUI" type="MarginContainer" parent="."]
 anchor_right = 1.0
 margin_left = 22.0
 margin_top = 13.0
-margin_right = -679.0
+margin_right = -694.0
 margin_bottom = 117.0
 custom_constants/margin_right = 20
 custom_constants/margin_top = 20
@@ -28,7 +23,7 @@ custom_constants/margin_bottom = 20
 [node name="HBoxContainer" type="HBoxContainer" parent="GUI"]
 margin_left = 20.0
 margin_top = 20.0
-margin_right = 303.0
+margin_right = 288.0
 margin_bottom = 84.0
 
 [node name="SaveData" type="TextureButton" parent="GUI/HBoxContainer"]
@@ -55,8 +50,8 @@ texture_pressed = ExtResource( 2 )
 expand = true
 
 [node name="LoadNetwork" type="TextureButton" parent="GUI/HBoxContainer"]
-margin_left = 141.0
-margin_right = 205.0
+margin_left = 136.0
+margin_right = 200.0
 margin_bottom = 64.0
 rect_min_size = Vector2( 64, 64 )
 hint_tooltip = "Save the Network Data"
@@ -67,8 +62,8 @@ texture_pressed = ExtResource( 4 )
 expand = true
 
 [node name="TrainNetwork" type="TextureButton" parent="GUI/HBoxContainer"]
-margin_left = 214.0
-margin_right = 278.0
+margin_left = 204.0
+margin_right = 268.0
 margin_bottom = 64.0
 rect_min_size = Vector2( 64, 64 )
 hint_tooltip = "Save the Network Data"
@@ -78,37 +73,3 @@ texture_normal = ExtResource( 5 )
 texture_pressed = ExtResource( 6 )
 expand = true
 
-[node name="Wall1" parent="." instance=ExtResource( 7 )]
-position = Vector2( 293.205, 53.0226 )
-
-[node name="Wall2" parent="." instance=ExtResource( 7 )]
-position = Vector2( 311.397, 577.282 )
-
-[node name="Wall3" parent="." instance=ExtResource( 7 )]
-position = Vector2( 975.388, 306.084 )
-
-[node name="Man1" parent="." instance=ExtResource( 8 )]
-position = Vector2( 388.324, 169.654 )
-script = ExtResource( 9 )
-
-[node name="Man2" parent="." instance=ExtResource( 8 )]
-position = Vector2( 391.045, 430.845 )
-script = ExtResource( 9 )
-
-[node name="MAN3" parent="." instance=ExtResource( 10 )]
-position = Vector2( 158.442, 316.717 )
-Side = "BlueBots"
-
-[node name="Target1" parent="." instance=ExtResource( 11 )]
-position = Vector2( 546.725, 57.1797 )
-
-[node name="Target2" parent="." instance=ExtResource( 11 )]
-position = Vector2( 498.515, 511.107 )
-
-[node name="Target3" parent="." instance=ExtResource( 11 )]
-position = Vector2( 937.915, 60.8236 )
-
-[connection signal="pressed" from="GUI/HBoxContainer/SaveData" to="MAN3" method="_on_SaveData_pressed"]
-[connection signal="pressed" from="GUI/HBoxContainer/SaveNetwork" to="MAN3" method="_on_SaveNetwork_pressed"]
-[connection signal="pressed" from="GUI/HBoxContainer/LoadNetwork" to="MAN3" method="_on_LoadNetwork_pressed"]
-[connection signal="pressed" from="GUI/HBoxContainer/TrainNetwork" to="MAN3" method="_on_TrainNetwork_pressed"]
