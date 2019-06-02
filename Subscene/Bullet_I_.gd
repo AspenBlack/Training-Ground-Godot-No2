@@ -9,9 +9,11 @@ const ACCEL = 200
 const MAX_SPEED = 10000
 const FRICTION = -100
 const GRAVITY = 2000
+const Timetolive = 5
 
 var acc = Vector2()
 var vel = Vector2()
+var FlightTime = 0.0
 
 
 func _ready():
@@ -31,7 +33,7 @@ func _ready():
 func _physics_process(delta):
 	var MyDeg = self.rotation
 	#print(MyDeg/(2*PI)*360)
-	
+	FlightTime = FlightTime + delta
 	# Converts Rotation to vector
 	vel = Vector2(sin(MyDeg),-cos(MyDeg))
 	
@@ -54,6 +56,8 @@ func _physics_process(delta):
 			Collision.collider.Hit()
 		queue_free()
 	
+	if FlightTime > Timetolive:
+		queue_free()
 	
 	pass
 	

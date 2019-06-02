@@ -97,11 +97,11 @@ func shoot( Apoint ):
 	bullet.set_name("bullet_A")
 	bullet.set_script(Bullet_Script)
 	#Takes the origianl direction to target and places projectial outside the collion2D
-	bullet.position += NewPoint * Bvector.length() + Coll_Offset
+	#bullet.position += NewPoint * Bvector.length() + Coll_Offset
 	AnAngle = 270 + (AnAngle * 57.29) #dont get the factor wrong :)
 	bullet.rotation_degrees = AnAngle # rotates projictial to point in correct direction.
 	add_child(bullet)				#Note is added to this node
-
+	bullet.position += position + NewPoint * Bvector.length() + Coll_Offset
 	#print ("Angle loaded %s" % (AnAngle))
 	pass
 
