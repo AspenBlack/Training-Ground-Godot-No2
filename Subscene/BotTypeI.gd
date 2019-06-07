@@ -14,6 +14,7 @@ var LoadNetworkMethod = null
 var TrainNetworkMethod = null
 
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	add_to_group(Side)
@@ -41,6 +42,26 @@ func _ready():
 			TrainNetworkMethod = child
 			print ("TrainNetworkMethod %s" % (child.name))
 		
+	var TheTree = get_tree()
+	print (TheTree)
+	print (TheTree.root)
+	TheTree.root.print_tree_pretty()
+	
+	var TheButton = TheTree.root.find_node("TrainNetwork",true,false)
+	print(TheButton)
+	print(TheButton.get_signal_connection_list("pressed"))
+	TheButton.connect("pressed",self,"_on_TrainNetwork_pressed")
+	print(TheButton.get_signal_connection_list("pressed"))
+	print(self)
+	
+	
+	
+	
+	
+			
+			
+			
+			
 
 func _physics_process(delta):
 	
