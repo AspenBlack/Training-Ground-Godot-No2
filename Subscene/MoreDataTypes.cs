@@ -1,4 +1,5 @@
 ﻿using System;
+using Godot;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,17 @@ using NeuralNetworks;
 
 namespace MoreDataTypes
 {
+
+
+    public class NodeData1
+    {
+        public int Index;
+        public Node2D TheNode;
+
+        public float Distance;
+        
+
+    }
     class DataType1
     {
         public double[] Inputs { get; set; }

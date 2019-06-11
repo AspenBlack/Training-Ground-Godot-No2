@@ -43,16 +43,16 @@ func _ready():
 			print ("TrainNetworkMethod %s" % (child.name))
 		
 	var TheTree = get_tree()
-	print (TheTree)
-	print (TheTree.root)
-	TheTree.root.print_tree_pretty()
+	#print (TheTree)
+	#print (TheTree.root)
+	#TheTree.root.print_tree_pretty()
 	
 	var TheButton = TheTree.root.find_node("TrainNetwork",true,false)
-	print(TheButton)
-	print(TheButton.get_signal_connection_list("pressed"))
+	#print(TheButton)
+	#print(TheButton.get_signal_connection_list("pressed"))
 	TheButton.connect("pressed",self,"_on_TrainNetwork_pressed")
-	print(TheButton.get_signal_connection_list("pressed"))
-	print(self)
+	#print(TheButton.get_signal_connection_list("pressed"))
+	#print(self)
 	
 	
 	

@@ -5,7 +5,7 @@ by Craig Wroth
 
 
 //#define DebugA
-//#define DebugB
+#define DebugB
 
 
 using Godot;
@@ -83,6 +83,13 @@ public class SmallBrain_II : Node
         GD.Print(ClosestFoe[0].Position.y);
         #endif
 
+        #if DebugB
+        GD.Print("+++ClosestFrient+++");
+        GD.Print(ClosestFriend);
+        GD.Print("---ClosestFrient2---");
+        GD.Print(ClosestFriend2);
+        #endif
+
 
         data_in[0] = ClosestFoe[0].Position.x;
         data_in[1] = ClosestFoe[0].Position.y;
@@ -139,11 +146,12 @@ public class SmallBrain_II : Node
         }
         GD.Print("Output of Network");
         GD.Print(MyString);
-        #endif
+        
 
         //data_out = (double[]) data_out2;
         GD.Print("Has Current Move ",Parent.Get("CurrentMove"));
         GD.Print("Has Side ",Parent.Get("Side"));
+        #endif
 
         Acount = 0 ;
         foreach(double Anumber in data_out2)
@@ -276,20 +284,42 @@ public class SmallBrain_II : Node
 
     public Godot.Collections.Dictionary<int, Node2D> sort_distance(Godot.Collections.Array<Node2D> SomeNodes)
     {
-        // Godot.Collections.Array<Node> NodesDistance = null;
-
-        // for (int i = 0 ; i < 10 ; i++)
-        // {
+        
+        int ACounter = 0;
         MyDic = new Godot.Collections.Dictionary<int, Node2D>();
-        MyDic.Add(1, Parent);
+        Godot.Collections.Dictionary<int, NodeData1> ADic =  new Godot.Collections.Dictionary<int, NodeData1>();
+        NodeData1 TestData = new NodeData1 {Index = 1,TheNode = Parent, Distance = 1};
+        SortedList<double, Node2D> MyList = new SortedList<double, Node2D>();
+        double Distance = 0;
+        Vector2 VDistance;
 
-        // }
-        // //NodesDistance = 
-        // //foreach(Node2D Anode in SomeNodes)
-        // //{
-        //     //NodesDistance.Add(Parent.Position.DistanceTo(Anode.Position));
-        //     //NodesDistance.Add(Anode);
-        // //}
+        foreach ( Node2D TheNode in SomeNodes)
+        {
+            
+
+            VDistance = Parent.ToLocal(TheNode.Position);
+            Distance = VDistance.LengthSquared();
+            AddNode:
+            try
+            {
+                MyList.Add(Distance,TheNode);
+            }
+            catch
+            {
+                Distance = Distance + 0.1;
+                goto AddNode;
+            }
+            
+
+        }
+
+        foreach (KeyValuePair<double, Node2D> Anode in MyList)
+        {
+            ACounter++;
+            MyDic.Add(ACounter,Anode.Value);
+
+        }
+        
 
         return MyDic;
     }
