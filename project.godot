@@ -19,6 +19,10 @@ config/name="ExpInG Training Ground No1"
 run/main_scene="res://Primary_I.tscn"
 config/icon="res://Art/Red_Rose-512.png"
 
+[autoload]
+
+Global="*res://Subscene/Global.gd"
+
 [mono]
 
 debugger_agent/wait_timeout=5000

@@ -45,7 +45,7 @@ func _ready():
 	var TheTree = get_tree()
 	#print (TheTree)
 	#print (TheTree.root)
-	#TheTree.root.print_tree_pretty()
+	TheTree.root.print_tree_pretty()
 	
 	var TheButton = TheTree.root.find_node("TrainNetwork",true,false)
 	#print(TheButton)
